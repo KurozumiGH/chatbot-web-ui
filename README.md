@@ -13,15 +13,17 @@ Forked from [mckaywrigley/chatbot-ui (legacy)](https://github.com/mckaywrigley/c
 
 ## Launch
 
-**Docker compose**
+### docker compose
 
 ```shell
 docker compose up -d
 ```
+
 Open [http://localhost:3000](http://localhost:3000)
 
 ## Note
 
-**How to add new model**
-- Edit `types/openai.ts`
-- 
+### How to add new model
+
+1. Edit `types/openai.ts`
+1. Also modify `utils/app/clean.ts` as needed (`OpenAIModelID`)
