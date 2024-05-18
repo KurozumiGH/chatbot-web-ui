@@ -27,3 +27,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 1. Edit `types/openai.ts`
 1. Also modify `utils/app/clean.ts` as needed (`OpenAIModelID`)
+
+### Change system prompt
+
+1. Edit `utils/app/const.ts` (`DEFAULT_SYSTEM_PROMPT`)
